@@ -1,25 +1,32 @@
-# Bunny's Gearview
+# Bunny's Gearview pro
 ![GitHub Release](https://img.shields.io/github/v/release/bunnyhu/GarminGearView)
 ![GitHub Release Date](https://img.shields.io/github/release-date/bunnyhu/GarminGearView)
 
 This Garmin EDGE data field attempts to calculate the selected chainring and cassette gears on a bike equipped with manual gear shift.
-There is already "gear view" apps in IQ store, why use this?
+
+👀 *"There is already gearview apps in IQ store, why use this?"*
 My application can handle up to 9 bikes, supports different display modes in text and graphic style and allows to record information in your activity.
 
-Please note: For calculation the speed and cadence informations are required.
+![App Screenshot](https://github.com/bunnyhu/GarminGearView/blob/main/IQ-store/images1.png)
+![App Screenshot](https://github.com/bunnyhu/GarminGearView/blob/main/IQ-store/images2.png)
+![App Screenshot](https://github.com/bunnyhu/GarminGearView/blob/main/IQ-store/images4.png)
 
-## Supported and tested devices
-Edge Explore 2
+## Supported devices
+**Fully tested:** Edge Explore 2  
+**Tested only in simulator:** Edge 1050, Edge 1040, Edge 540, Edge 840, Edge MTB  
+💡*Please note: For calculation the speed (sensor or GPS) and cadence informations are required.*
 
-## Supported devices but tested only in simulator
-Edge 1050, Edge 1040 &Solar, Edge 540 &Solar, Edge 840 &Solar, Edge MTB
-
-## Using
+## How to setting the app
 The app setup and the bicycle configuration is avaiable from Garmin Express on desktop computer or IQ Store app on smartphone.
-The bicycles can be configured using a string with the following format:
 
+- **Record speed gear:** Save gear informations into the activity .FIT file. You can see as graph in Connect.
+- **Event if tapping:** If your device have touch screen, you can set an event for tapping on the datafield.  
+It can rotate the bikes or the display styles or just disabled.
+- **Display style:** Choice one of the text and graphics display styles.
+- **Active bicycle:** You can save bike up to 9 but only one can active.
+
+### The bicycles data can be configured using a string with the following format:
 **NAME:WHEELSIZE:CHAINRINGS:CASSETTE**
-
 All data is separated by a single colon (:) without space.
 
 - NAME: A name up to 16 characters long, which will appear at the top of the field. Most character is valid except colon.
@@ -32,15 +39,16 @@ All data is separated by a single colon (:) without space.
 - Trekking 3x8:2165:48,38,28:13,14,15,17,19,21,23,26
 - MTB 1x12:2160:40:10,12,14,16,18,21,24,28,32,36,42,52
 
-With a wrong format string you can crash the datafield, so please take care of the correct syntax!
-It is recommended that you continuously fill the bicycle data and do not leave any text fields blank.
+💡*It is recommended that you continuously fill the bicycle data and do not leave any text fields blank.*
 
 ## Bike configurator page
-There is a bike configurator website that help you to make this string with some standard wheel and tire size.
-Also there is a calculated number in the Garmin's speed sensor info page!
-http://github.io/bunnyhu/GarminGearView
+With a wrong format string you may crash the datafield. 
+If you are not sure, I made a bike configurator that help to make this string - with some standard wheel and tire size.  
+https://bunnyhu.github.io/GarminGearView  
+*Also there is a calculated number in the Garmin's speed sensor info page on your Edge!*
 
 ## Garmin IQ store
+https://apps.garmin.com/hu-HU/developer/26b73905-52ae-4a66-ad58-32a801bc51d5/apps
 
 ## Project home
 https://github.com/bunnyhu/GarminGearView
