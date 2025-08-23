@@ -1,0 +1,65 @@
+<!-- Edge 1040 282x470 -->
+<layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <layout id="wrongLayout">
+        <drawable class="Background" />
+        <label id="label" x="center" y="6" color="Graphics.COLOR_LT_GRAY" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_TINY" />
+        <label id="info" x="center" y="center" color="Graphics.COLOR_RED" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_MEDIUM" text="Fit only 1x1 field."/>
+    </layout>
+    <layout id="chainrings3">
+        <!-- 140x92 (119x78) -->
+        <drawable class="Background" />
+        <label id="label" x="center" y="6" color="Graphics.COLOR_LT_GRAY" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_TINY" />
+        <label id="cr0" x="25" y="30" color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_LARGE" />
+        <label id="cr1" x="70" y="30" color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_LARGE" />
+        <label id="cr2" x="115" y="30" color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_LARGE" />
+        <label id="gear0" x="25" y="65" color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_LARGE" />
+        <label id="gear1" x="70" y="65" color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_LARGE" />
+        <label id="gear2" x="115" y="65" color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_LARGE" />
+    </layout>
+    <layout id="chainrings2">
+        <!-- 140x92 (119x78) -->
+        <drawable class="Background" />
+        <label id="label" x="center" y="6" color="Graphics.COLOR_DK_GRAY" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_TINY" />
+        <label id="cr0" x="35" y="30" color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_LARGE" />
+        <label id="cr1" x="90" y="30" color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_LARGE" />
+        <label id="gear0" x="35" y="58" color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_NUMBER_MEDIUM" />
+        <label id="gear1" x="90" y="58" color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_NUMBER_MEDIUM" />
+        <label id="cr2" x="0" y="0" visible="false" />
+        <label id="gear2" x="0" y="0" visible="false" />
+    </layout>
+    <layout id="chainrings1">
+        <!-- 140x92 (119x78) -->
+        <drawable class="Background" />
+        <label id="label" x="center" y="6" color="Graphics.COLOR_LT_GRAY" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_TINY" />
+        <label id="cr0" x="center" y="30" color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_LARGE" />
+        <label id="gear0" x="center" y="58" color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_NUMBER_MEDIUM" />
+        <label id="cr1" x="0" y="0" visible="false" />
+        <label id="cr2" x="0" y="0" visible="false" />
+        <label id="gear2" x="0" y="0" visible="false" />
+        <label id="gear1" x="0" y="0" visible="false" />
+    </layout>
+    <layout id="speedgear">
+        <!-- 140x92 (119x78) -->
+        <drawable class="Background" />
+        <label id="label" x="center" y="6" color="Graphics.COLOR_LT_GRAY" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_TINY" />
+        <label id="gear0" x="center" y="30" color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_NUMBER_HOT" />
+        <label id="cr0" x="0" y="0" visible="false" />
+        <label id="cr1" x="0" y="0" visible="false" />
+        <label id="cr2" x="0" y="0" visible="false" />
+        <label id="gear2" x="0" y="0" visible="false" />
+        <label id="gear1" x="0" y="0" visible="false" />
+    </layout>
+    <layout id="graph1">
+        <!-- 140x92 (119x78) -->
+        <drawable class="Background" />
+        <label id="label" x="center" y="6" color="Graphics.COLOR_LT_GRAY" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_TINY" />
+        <drawable id="graphGears" class="GfxGears">
+            <param name="locX">0</param>
+            <param name="locY">25</param>
+            <param name="width">140</param>
+            <param name="height">65</param>
+        </drawable>
+    </layout>
+
+</layouts>
+

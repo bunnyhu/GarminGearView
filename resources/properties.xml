@@ -1,0 +1,15 @@
+<properties>
+    <property id="activeBikeIndex" type="number">1</property>
+    <property id="logging" type="boolean">true</property>
+    <property id="gearStyle" type="number">1</property>
+    <property id="tapping" type="number">0</property>
+    <property id="bike1" type="string"></property>
+    <property id="bike2" type="string"></property>
+    <property id="bike3" type="string"></property>
+    <property id="bike4" type="string"></property>
+    <property id="bike5" type="string"></property>
+    <property id="bike6" type="string"></property>
+    <property id="bike7" type="string"></property>
+    <property id="bike8" type="string"></property>
+    <property id="bike9" type="string"></property>
+</properties>

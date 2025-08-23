@@ -1,0 +1,68 @@
+<settings>
+    <setting propertyKey="@Properties.logging" title="@Strings.loggingTitle">
+        <settingConfig type="boolean" />
+    </setting>
+    <setting propertyKey="@Properties.tapping" title="@Strings.tappingTitle">
+        <settingConfig type="list">
+            <listEntry value="1">@Strings.tapping1</listEntry>
+            <listEntry value="2">@Strings.tapping2</listEntry>
+            <listEntry value="3">@Strings.tapping3</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.gearStyle" title="@Strings.gearStyleTitle">
+        <settingConfig type="list">
+            <listEntry value="1">@Strings.gearStyle1</listEntry>
+            <listEntry value="2">@Strings.gearStyle2</listEntry>
+            <listEntry value="3">@Strings.gearStyle3</listEntry>
+            <listEntry value="4">@Strings.gearStyle4</listEntry>
+            <listEntry value="5">@Strings.gearStyle5</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.activeBikeIndex" title="@Strings.activeBikeTitle">
+        <settingConfig type="list">
+            <listEntry value="1">@Strings.bike1Title</listEntry>
+            <listEntry value="2">@Strings.bike2Title</listEntry>
+            <listEntry value="3">@Strings.bike3Title</listEntry>
+            <listEntry value="4">@Strings.bike4Title</listEntry>
+            <listEntry value="5">@Strings.bike5Title</listEntry>
+            <listEntry value="6">@Strings.bike6Title</listEntry>
+            <listEntry value="7">@Strings.bike7Title</listEntry>
+            <listEntry value="8">@Strings.bike8Title</listEntry>
+            <listEntry value="9">@Strings.bike9Title</listEntry>
+        </settingConfig>
+    </setting>
+    <group id="bikes" title="@Strings.bikesTitle" description="@Strings.bikesDescription">
+        <setting propertyKey="@Properties.bike1" title="@Strings.bike1Title" prompt="@Strings.bikePrompt">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+        <setting propertyKey="@Properties.bike2" title="@Strings.bike2Title" prompt="@Strings.bikePrompt">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+        <setting propertyKey="@Properties.bike3" title="@Strings.bike3Title" prompt="@Strings.bikePrompt">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+        <setting propertyKey="@Properties.bike4" title="@Strings.bike4Title" prompt="@Strings.bikePrompt">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+        <setting propertyKey="@Properties.bike5" title="@Strings.bike5Title" prompt="@Strings.bikePrompt">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+        <setting propertyKey="@Properties.bike6" title="@Strings.bike6Title" prompt="@Strings.bikePrompt">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+        <setting propertyKey="@Properties.bike7" title="@Strings.bike7Title" prompt="@Strings.bikePrompt">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+        <setting propertyKey="@Properties.bike8" title="@Strings.bike8Title" prompt="@Strings.bikePrompt">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+        <setting propertyKey="@Properties.bike9" title="@Strings.bike9Title" prompt="@Strings.bikePrompt">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+    </group>
+<!--
+Gravel 2x12:2150:30,46:11,12,13,14,15,17,19,21,24,27,30,34
+Trekking 3x8:2165:48,38,28:13,14,15,17,19,21,23,26
+Monti 1x12:2160:40:10,12,14,16,18,21,24,28,32,36,42,52
+-->
+</settings>

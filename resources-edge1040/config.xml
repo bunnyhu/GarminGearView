@@ -1,0 +1,6 @@
+<resources>
+    <string id="device">edge1040</string>
+    <jsonData id="SimulatorFontPaddings">[3, 4, 5, 5, 9, 9, 9, 13, 16]</jsonData>
+    <jsonData id="DeviceFontPaddings">[0, 0, 0, 0, 0, 7, 9, 11, 14]</jsonData>
+    <jsonData id="fontSizes">[12, 15, 17, 20, 32, 36, 42, 55, 67]</jsonData>
+</resources>

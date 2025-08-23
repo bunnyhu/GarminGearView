@@ -1,0 +1,17 @@
+<resources>
+    <string id="AppName" translatable="false">Bunny`s DEV gear view</string>
+    <string id="device">unnamed</string>
+    <jsonData id="SimulatorFontPaddings">[0, 0, 0, 0, 0, 0, 0, 0, 0]</jsonData>
+    <jsonData id="DeviceFontPaddings">[0, 0, 0, 0, 0, 0, 0, 0, 0]</jsonData>
+    <jsonData id="fontSizes">[0, 0, 0, 0, 0, 0, 0, 0, 0]</jsonData>
+
+    <fitContributions>
+        <fitField id="0" displayInChart="true" sortOrder="0" precision="0"
+        chartTitle="@Strings.fitChartTitle0" dataLabel="@Strings.fitDataLabel0"
+        unitLabel="@Strings.fitUnitLabel0" fillColor="#108329" />
+
+        <fitField id="1" displayInChart="true" sortOrder="1" precision="2"
+        chartTitle="@Strings.fitChartTitle1" dataLabel="@Strings.fitDataLabel1"
+        unitLabel="@Strings.fitUnitLabel1" fillColor="#c71aa1" />
+    </fitContributions>
+</resources>

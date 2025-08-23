@@ -1,0 +1,33 @@
+<resources>
+    <string id="mainLabel">Gear view</string>
+    <string id="activeBikeTitle">Active bicycle:</string>
+    <string id="bike1Title">Bicycle 1</string>
+    <string id="bike2Title">Bicycle 2</string>
+    <string id="bike3Title">Bicycle 3</string>
+    <string id="bike4Title">Bicycle 4</string>
+    <string id="bike5Title">Bicycle 5</string>
+    <string id="bike6Title">Bicycle 6</string>
+    <string id="bike7Title">Bicycle 7</string>
+    <string id="bike8Title">Bicycle 8</string>
+    <string id="bike9Title">Bicycle 9</string>
+    <string id="bikePrompt"></string>
+    <string id="bikesTitle">Bicycles datas</string>
+    <string id="gearStyleTitle">Display style:</string>
+    <string id="gearStyle1">chainring and cassette cog</string>
+    <string id="gearStyle2">chainring index and cassette cog</string>
+    <string id="gearStyle3">chainring and cassette index</string>
+    <string id="gearStyle4">combined total speed gear</string>
+    <string id="gearStyle5">Graphics visualization</string>
+    <string id="bikesDescription">NAME:WHEELSIZE:CHAINRINGS:CASSETTE (Colon between the 4 information, NAME max. 16 characters long, WHEEL SIZE in mm, the CHAINRINGS and CASSETTE gears separated by commas.) EXAMPLE: mybike:2150:50,34:11,12,13,14,15</string>
+    <string id="loggingTitle">Record speed gear</string>
+    <string id="fitChartTitle0">Gear cogs (speed_index+front_00+rear_00)</string>
+    <string id="fitDataLabel0">Cogs</string>
+    <string id="fitUnitLabel0">i_f_r</string>
+    <string id="fitChartTitle1">Gear ratio</string>
+    <string id="fitDataLabel1">Ratio</string>
+    <string id="fitUnitLabel1"></string>
+    <string id="tappingTitle">Event if tapping:</string>
+    <string id="tapping1">nothing</string>
+    <string id="tapping2">change display</string>
+    <string id="tapping3">change bicycle</string>
+</resources>
