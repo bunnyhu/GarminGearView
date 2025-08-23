@@ -11,7 +11,7 @@ import Toybox.FitContributor;
 
     @author Karoly Szabo (Bunny)
     @version 1.0
-    @link https://github.com/bunnyhu
+    @link https://github.com/bunnyhu/GarminGearViewer
 */
 class GarminAppView extends WatchUi.DataField {
 
