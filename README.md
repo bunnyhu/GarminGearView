@@ -17,6 +17,7 @@ My application can handle up to 9 bikes, supports different display modes in tex
 ![App Screenshot](https://github.com/bunnyhu/GarminGearView/blob/main/IQ-store/images2.png)
 ![App Screenshot](https://github.com/bunnyhu/GarminGearView/blob/main/IQ-store/images4.png)
 ![App Screenshot](https://github.com/bunnyhu/GarminGearView/blob/main/IQ-store/images3.png)
+
 The app setup and the bicycle configuration is avaiable from Garmin Express on desktop computer or IQ Store app on smartphone.
 
 - **Record gear:** Save gear informations into the activity .FIT file. You can see as graph in Connect.
@@ -54,6 +55,7 @@ https://bunnyhu.github.io/GarminGearView
 
 ## Garmin Connect graphs
 ![App Screenshot](https://github.com/bunnyhu/GarminGearView/blob/main/IQ-store/images5.png)
+
 If you enable the "Record gear" in the setting, the gear informations saved into the activity.fit file and you can see them in the Connect in a graph. There is two graph:
 
 - Gear cogs (index,front,rear) : three data in one number, the best calculated gear. The index is the combined total speed gear (details in "Display styles"), then front chainring and the rear cassette cog numbers, both with 3 number. Its because the Connect show the number with thousand separate like 17,030,012 that means speed no 17, 30 chainring and 12 cassette cogs.
