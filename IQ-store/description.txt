@@ -3,6 +3,9 @@ There is already "gear view" apps in IQ store, why use this? My application can 
 
 Please note: For calculation the speed and cadence informations are required.
 
+More detailed user manual here:
+https://github.com/bunnyhu/GarminGearView/blob/main/README.md
+
 The app setup and the bicycle configuration is avaiable from Garmin Express on desktop computer or IQ Store app on smartphone.
 The bicycles can be configured using a string with the following format:
 
@@ -15,9 +18,14 @@ CHAINRINGS: The distribution of the front gear (chainrings), with the cog number
 CASSETTE: The distribution of the rear gear (cassette), with the cog numbers separated by commas.
 
 Example bicycle configuration strings:
-Gravel 2x12:2140:30,46:11,12,13,14,15,17,19,21,24,27,30,34
+Gravel 2x12:2145:30,46:11,12,13,14,15,17,19,21,24,27,30,34
 Trekking 3x8:2165:48,38,28:13,14,15,17,19,21,23,26
 MTB 1x12:2160:40:10,12,14,16,18,21,24,28,32,36,42,52
 
-There is a bike configurator website that help you to make this string with some standard wheel and tire size.   Also there is a calculated number in the Garmin's speed sensor info page!
+There is a bike configurator website that help you to make this string with some standard wheel and tire size.
+https://bunnyhu.github.io/GarminGearView/
+
 With a wrong format string you can crash the datafield, so please take care of the correct syntax! It is recommended that you continuously fill the bicycle data and do not leave any text fields blank.
+
+And last again, more detailed user manual here:
+https://github.com/bunnyhu/GarminGearView/blob/main/README.md

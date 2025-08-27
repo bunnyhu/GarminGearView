@@ -1,5 +1,5 @@
 <resources>
-    <string id="AppName" translatable="false">Bunny`s DEV gear view</string>
+    <string id="AppName" translatable="false">Bunny`s Gear View pro</string>
     <string id="device">unnamed</string>
     <jsonData id="SimulatorFontPaddings">[0, 0, 0, 0, 0, 0, 0, 0, 0]</jsonData>
     <jsonData id="DeviceFontPaddings">[0, 0, 0, 0, 0, 0, 0, 0, 0]</jsonData>

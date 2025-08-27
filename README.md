@@ -19,10 +19,10 @@ My application can handle up to 9 bikes, supports different display modes in tex
 ## How to setting the app
 The app setup and the bicycle configuration is avaiable from Garmin Express on desktop computer or IQ Store app on smartphone.
 
-- **Record speed gear:** Save gear informations into the activity .FIT file. You can see as graph in Connect.
+- **Record gear:** Save gear informations into the activity .FIT file. You can see as graph in Connect.
 - **Event if tapping:** If your device have touch screen, you can set an event for tapping on the datafield.  
 It can rotate the bikes or the display styles or just disabled.
-- **Display style:** Choice one of the text and graphics display styles.
+- **Display style:** Choice one of the text and graphics display styles (details below).
 - **Active bicycle:** You can save bike up to 9 but only one can active.
 
 ### The bicycles data can be configured using a string with the following format:
@@ -41,11 +41,23 @@ All data is separated by a single colon (:) without space.
 
 💡*It is recommended that you continuously fill the bicycle data and do not leave any text fields blank.*
 
+### Display styles
+- The "combined total speed gear" means a gear number from slowest ratio to the fastest. So if you have a 3x10 system, it will be a number between 1-30 ordered by ratio. I do not use simple chainring+cassette because there is overlapped combinations, and I like to see a nice graph when the calculation is jumping between two possible overlapped combination.
+- The index means simple rings ordered number from slowest to fastest. So the 1. is the smallest chainring and the largest cassette ring.
+- The graphics visualization draw the cassette rings and show the calculated **chainring index** inside the ring. The best is black and the other possible (if any overlapped combinations) is the gray background number (or white+gray if dark mode).
+
 ## Bike configurator page
 With a wrong format string you may crash the datafield. 
 If you are not sure, I made a bike configurator that help to make this string - with some standard wheel and tire size.  
 https://bunnyhu.github.io/GarminGearView  
 *Also there is a calculated number in the Garmin's speed sensor info page on your Edge!*
+
+## Garmin Connect graphs
+If you enable the "Record gear" in the setting, the gear informations saved into the activity.fit file and you can see them in the Connect in a graph. There is two graph:
+
+- Gear cogs (index,front,rear) : three data in one number, the best calculated gear. The index is the combined total speed gear (details in "Display styles"), then front chainring and the rear cassette cog numbers, both with 3 number. Its because the Connect show the number with thousand separate like 1,030,034 that means speed 1, 30 chainring and 46 cassette cogs.
+
+- Gear ratio : The best gear ratio with decimals precision.
 
 ## Garmin IQ store
 https://apps.garmin.com/hu-HU/developer/26b73905-52ae-4a66-ad58-32a801bc51d5/apps

@@ -19,10 +19,10 @@
     <string id="gearStyle4">combined total speed gear</string>
     <string id="gearStyle5">Graphics visualization</string>
     <string id="bikesDescription">NAME:WHEELSIZE:CHAINRINGS:CASSETTE (Colon between the 4 information, NAME max. 16 characters long, WHEEL SIZE in mm, the CHAINRINGS and CASSETTE gears separated by commas.) EXAMPLE: mybike:2150:50,34:11,12,13,14,15</string>
-    <string id="loggingTitle">Record speed gear</string>
-    <string id="fitChartTitle0">Gear cogs (speed_index+front_00+rear_00)</string>
+    <string id="loggingTitle">Record gear:</string>
+    <string id="fitChartTitle0">Gear cogs (index,front,rear)</string>
     <string id="fitDataLabel0">Cogs</string>
-    <string id="fitUnitLabel0">i_f_r</string>
+    <string id="fitUnitLabel0">i,fff,rrr</string>
     <string id="fitChartTitle1">Gear ratio</string>
     <string id="fitDataLabel1">Ratio</string>
     <string id="fitUnitLabel1"></string>

@@ -11,7 +11,7 @@ import Toybox.FitContributor;
 
     @author Karoly Szabo (Bunny)
     @version 1.0
-    @link https://github.com/bunnyhu/GarminGearViewer
+    @link https://github.com/bunnyhu/GarminGearView
 */
 class GarminAppView extends WatchUi.DataField {
 
@@ -237,10 +237,10 @@ class GarminAppView extends WatchUi.DataField {
         if (!bestRatio.isEmpty() && needLogGears) {
             if ( _fitGears != null ) {
                 var gString = _gears.getGearsSpeedIndex( bestRatio[:front], bestRatio[:rear]).format("%02d") +
-                    bestRatio[:front].format("%02d") + bestRatio[:rear].format("%02d");
+                    bestRatio[:front].format("%03d") + bestRatio[:rear].format("%03d");
                 _fitGears.setData( gString.toNumber());
-                // System.print(gString + " - ");
-                // System.println(gString.toNumber());
+                System.print(gString + " - ");
+                System.println(gString.toNumber());
             }
             if ( _fitRatio != null) {
                 _fitRatio.setData( bestRatio[:ratio] );
