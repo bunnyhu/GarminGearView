@@ -6,10 +6,7 @@ This Garmin EDGE data field attempts to calculate the selected chainring and cas
 
 👀 *"There is already gearview apps in IQ store, why use this?"*
 My application can handle up to 9 bikes, supports different display modes in text and graphic style and allows to record information in your activity.
-
 ![App Screenshot](https://github.com/bunnyhu/GarminGearView/blob/main/IQ-store/images1.png)
-![App Screenshot](https://github.com/bunnyhu/GarminGearView/blob/main/IQ-store/images2.png)
-![App Screenshot](https://github.com/bunnyhu/GarminGearView/blob/main/IQ-store/images4.png)
 
 ## Supported devices
 **Fully tested:** Edge Explore 2  
@@ -17,6 +14,9 @@ My application can handle up to 9 bikes, supports different display modes in tex
 💡*Please note: For calculation the speed (sensor or GPS) and cadence informations are required.*
 
 ## How to setting the app
+![App Screenshot](https://github.com/bunnyhu/GarminGearView/blob/main/IQ-store/images2.png)
+![App Screenshot](https://github.com/bunnyhu/GarminGearView/blob/main/IQ-store/images4.png)
+![App Screenshot](https://github.com/bunnyhu/GarminGearView/blob/main/IQ-store/images3.png)
 The app setup and the bicycle configuration is avaiable from Garmin Express on desktop computer or IQ Store app on smartphone.
 
 - **Record gear:** Save gear informations into the activity .FIT file. You can see as graph in Connect.
@@ -53,9 +53,10 @@ https://bunnyhu.github.io/GarminGearView
 *Also there is a calculated number in the Garmin's speed sensor info page on your Edge!*
 
 ## Garmin Connect graphs
+![App Screenshot](https://github.com/bunnyhu/GarminGearView/blob/main/IQ-store/images5.png)
 If you enable the "Record gear" in the setting, the gear informations saved into the activity.fit file and you can see them in the Connect in a graph. There is two graph:
 
-- Gear cogs (index,front,rear) : three data in one number, the best calculated gear. The index is the combined total speed gear (details in "Display styles"), then front chainring and the rear cassette cog numbers, both with 3 number. Its because the Connect show the number with thousand separate like 1,030,034 that means speed 1, 30 chainring and 46 cassette cogs.
+- Gear cogs (index,front,rear) : three data in one number, the best calculated gear. The index is the combined total speed gear (details in "Display styles"), then front chainring and the rear cassette cog numbers, both with 3 number. Its because the Connect show the number with thousand separate like 17,030,012 that means speed no 17, 30 chainring and 12 cassette cogs.
 
 - Gear ratio : The best gear ratio with decimals precision.
 
