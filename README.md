@@ -6,6 +6,7 @@ This Garmin EDGE data field attempts to calculate the selected chainring and cas
 
 👀 *"There is already gearview apps in IQ store, why use this?"*
 My application can handle up to 9 bikes, supports different display modes in text and graphic style and allows to record information in your activity.
+
 ![App Screenshot](https://github.com/bunnyhu/GarminGearView/blob/main/IQ-store/images1.png)
 
 ## Supported devices
